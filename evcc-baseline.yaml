@@ -1,0 +1,78 @@
+# evcc-Basiskonfiguration – Beispiel für
+#   SolarEdge Wechselrichter + SolarEdge Netz-Zähler + go-e Charger
+#
+# Vor dem Start:
+#   1. IP-Adressen anpassen
+#   2. Modbus TCP im Wechselrichter (SetApp) aktivieren
+#   3. HTTP-API v2 in der go-e App aktivieren
+#   4. Prüfen: evcc checkconfig
+#
+# Wichtig: Es darf nur EIN Modbus-TCP-Client auf den Wechselrichter
+# zugreifen. Home Assistant & Co. nicht parallel auf Port 502 pollen.
+
+site:
+  title: Zuhause
+  meters:
+    grid: netz
+    pv: pv
+    # battery: akku        # nur eintragen, wenn ein Speicher vorhanden ist
+
+meters:
+  # Netz-Zähler (SolarEdge SE-MTR-3Y am Einspeisepunkt, Subdevice 1)
+  - name: netz
+    type: template
+    template: solaredge-inverter
+    usage: grid
+    modbus: tcpip
+    id: 1
+    host: 192.168.1.50
+    port: 502
+
+  # PV-Erzeugung (SunSpec 101/103)
+  - name: pv
+    type: template
+    template: solaredge-inverter
+    usage: pv
+    modbus: tcpip
+    id: 1
+    host: 192.168.1.50
+    port: 502
+
+chargers:
+  # go-e Charger, lokale HTTP-API v2
+  - name: carport
+    type: template
+    template: go-e
+    host: 192.168.1.60
+
+  # Alternative: SolarEdge ONE EV Charger über OCPP
+  # Die Wallbox verbindet sich zu evcc auf Port 8887.
+  # - name: carport
+  #   type: template
+  #   template: ocpp-solaredge
+  #   stationid: "solaredge-1"
+  #   connector: 1
+
+# Optional: Tesla Fleet API für SoC und Ladegrenze.
+# Ohne diesen Block läuft die Überschussladung trotzdem.
+#
+# vehicles:
+#   - name: tesla
+#     type: template
+#     template: tesla
+#     clientId: "DEIN_CLIENT_ID"
+#     accessToken: "DEIN_ACCESS_TOKEN"
+#     refreshToken: "DEIN_REFRESH_TOKEN"
+#     vin: "DEINE_VIN"
+
+loadpoints:
+  - title: Carport
+    charger: carport
+    # vehicle: tesla        # nur aktivieren, wenn der vehicles-Block oben aktiv ist
+    mode: smart
+    mincurrent: 6
+    maxcurrent: 16
+    phases: 3
+
+# Für einige Gerätetreiber (u. a. go-e) verlangt evcc ein Sponsoring-Token.
+# sponsortoken: "DEIN_TOKEN"

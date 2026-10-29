@@ -1,0 +1,153 @@
+THOMIS SUPERCHARGER - PROXMOX VE 9.1.6 LXC
+==========================================
+
+Ziel:      Debian-13-LXC anlegen, NICHT starten
+Storage:   local-lvm
+Bridge:    vmbr0
+Netz:      DHCP (feste IP optional, siehe Abschnitt 6)
+RFID:      Netzwerkleser ESP32 + PN532 (kein USB)
+
+Alle Befehle auf dem Proxmox-Host als root ausfuehren.
+
+------------------------------------------------------------
+1. VORPRUEFUNG
+------------------------------------------------------------
+
+pveversion
+pvesm status
+ip -br link show vmbr0
+
+# Erwartet: PVE 9.1.6, Storage local-lvm, Bridge vmbr0
+
+------------------------------------------------------------
+2. TEMPLATE UND CONTAINER ANLEGEN
+------------------------------------------------------------
+
+CTID=120
+STORAGE=local-lvm
+BRIDGE=vmbr0
+TEMPLATE_STORAGE=local
+
+pveam update
+
+TEMPLATE=$(pveam available --section system \
+  | awk '/debian-13-standard_/ {print $2}' \
+  | sort -V | tail -1)
+
+[ -n "$TEMPLATE" ] || { echo "Kein Debian-13-Template gefunden"; exit 1; }
+echo "Template: $TEMPLATE"
+
+pveam list "$TEMPLATE_STORAGE" | grep -q "$TEMPLATE" \
+  || pveam download "$TEMPLATE_STORAGE" "$TEMPLATE"
+
+if pct status "$CTID" >/dev/null 2>&1; then
+  echo "CT $CTID existiert bereits - CTID aendern"
+  exit 1
+fi
+
+pct create "$CTID" "${TEMPLATE_STORAGE}:vztmpl/${TEMPLATE}" \
+  --hostname thomis-supercharger \
+  --cores 2 --memory 2048 --swap 512 \
+  --rootfs "${STORAGE}:16" \
+  --net0 name=eth0,bridge=${BRIDGE},ip=dhcp \
+  --unprivileged 1 \
+  --onboot 0 \
+  --ostype debian \
+  --description "Thomis Supercharger"
+
+echo "Fertig: CT $CTID wurde angelegt und NICHT gestartet."
+
+------------------------------------------------------------
+3. PRUEFEN - CONTAINER BLEIBT GESTOPPT
+------------------------------------------------------------
+
+pct config 120
+pct status 120
+
+# Erwartung: status: stopped
+
+------------------------------------------------------------
+4. SPAETER STARTEN
+------------------------------------------------------------
+
+pct start 120
+pct set 120 --onboot 1
+pct exec 120 -- ip -4 -o addr show eth0
+
+# Die DHCP-IP steht in der Ausgabe.
+# Danach im Router eine Reservierung setzen.
+
+------------------------------------------------------------
+5. BASISPAKETE - NUR WENN DER CONTAINER LAEUFT
+------------------------------------------------------------
+
+pct exec 120 -- bash -c '
+set -e
+export DEBIAN_FRONTEND=noninteractive
+apt-get update
+apt-get -y upgrade
+apt-get install -y --no-install-recommends \
+  curl ca-certificates gnupg git jq unzip sudo \
+  sqlite3 python3 python3-venv python3-pip \
+  caddy chrony \
+  libpango-1.0-0 libpangoft2-1.0-0 libcairo2 libgdk-pixbuf-2.0-0 \
+  fonts-dejavu shared-mime-info
+timedatectl set-timezone Europe/Berlin || true
+systemctl enable --now chrony || true
+systemctl disable --now caddy 2>/dev/null || true
+install -d -m 0755 /opt/thomis-supercharger /var/lib/thomis-supercharger /var/backups/thomis
+'
+
+------------------------------------------------------------
+6. FESTE IP STATT DHCP (OPTIONAL)
+------------------------------------------------------------
+
+# IP, Maske und Gateway anpassen:
+pct set 120 --net0 name=eth0,bridge=vmbr0,ip=192.168.1.50/24,gw=192.168.1.1
+
+pct reboot 120
+pct exec 120 -- ip -4 -o addr show eth0
+
+------------------------------------------------------------
+7. SSH-KEY FUER ROOT IM CONTAINER (OPTIONAL)
+------------------------------------------------------------
+
+pct exec 120 -- mkdir -p /root/.ssh
+pct exec 120 -- sh -c 'echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKeQxh85F0ixE7oY/SkgoZFS27TYQWqTWD+jTQM39YG3 thomas@ki-coding-vm" >> /root/.ssh/authorized_keys'
+pct exec 120 -- chmod 700 /root/.ssh
+pct exec 120 -- chmod 600 /root/.ssh/authorized_keys
+
+------------------------------------------------------------
+8. FEHLERBEHEBUNG
+------------------------------------------------------------
+
+# "storage 'local-lvm' does not exist"
+#   -> pvesm status
+#   -> alternativ local-zfs verwenden
+
+# "no such template"
+#   -> pveam update
+#   -> pveam available --section system | grep debian-13
+
+# "CT 120 already exists"
+#   -> andere CTID waehlen, z.B. 121
+
+# Keine DHCP-IP
+#   -> pct exec 120 -- ip a
+#   -> Bridge, VLAN und Router pruefen
+
+# Netzwerkleser erreicht den LXC nicht
+#   -> VLAN/Firewall pruefen
+#   -> Port 1883 (MQTT) oder 443 (HTTPS) freigeben
+
+------------------------------------------------------------
+9. WICHTIG
+------------------------------------------------------------
+
+- Der Container wird mit --onboot 0 angelegt und NICHT gestartet.
+- Erst nach Pruefung von Storage, Netz und IP starten.
+- Netzwerkleser ESP32: kein USB-Passthrough, keine lxc.cgroup2-Regeln.
+- Vollstaendiger Installer: proxmox_lxc_setup.sh (START=0).
+- Dokumentation: Thomis_Supercharger_Vorschlag.md, Abschnitt 11.4.
+
+ENDE

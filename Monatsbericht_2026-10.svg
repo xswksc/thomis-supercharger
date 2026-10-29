@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" width="1000" height="1414" font-family="DejaVu Sans, Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="1414" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1000" height="5" rx="0" fill="#1d4ed8" stroke="none" stroke-width="1"/>
+<text x="60" y="42" font-size="9.5" font-weight="bold" fill="#1d4ed8" text-anchor="start" letter-spacing="1.6">THOMIS SUPERCHARGER</text>
+<text x="940" y="42" font-size="8.5" font-weight="bold" fill="#94a3b8" text-anchor="end" letter-spacing="1.6">MONATSBERICHT</text>
+<line x1="60" y1="58" x2="940" y2="58" stroke="#e2e8f0" stroke-width="1"/>
+<text x="60" y="104" font-size="30" font-weight="bold" fill="#0f172a" text-anchor="start">Oktober 2026</text>
+<text x="60" y="128" font-size="9.5" font-weight="normal" fill="#64748b" text-anchor="start">Ladebericht · Musterstraße 12 · Tesla Model 3 · Wallbox</text>
+<text x="940" y="96" font-size="8.5" font-weight="normal" fill="#94a3b8" text-anchor="end">Erstellt am 01.11.2026, 06:00</text>
+<text x="940" y="112" font-size="8.5" font-weight="normal" fill="#94a3b8" text-anchor="end">Datenstand 31.10.2026, 23:59</text>
+<rect x="60" y="150" width="160" height="88" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="170" font-size="8" font-weight="bold" fill="#64748b" text-anchor="start" letter-spacing="0.8">AUTO</text>
+<text x="74" y="199" font-size="21" font-weight="bold" fill="#0f172a" text-anchor="start">142 kWh</text>
+<text x="74" y="216" font-size="8.5" font-weight="normal" fill="#64748b" text-anchor="start">29 Ladetage</text>
+<rect x="235" y="150" width="160" height="88" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="249" y="170" font-size="8" font-weight="bold" fill="#64748b" text-anchor="start" letter-spacing="0.8">SOLAR (AUTO)</text>
+<text x="249" y="199" font-size="21" font-weight="bold" fill="#b45309" text-anchor="start">118 kWh</text>
+<text x="249" y="216" font-size="8.5" font-weight="normal" fill="#16a34a" text-anchor="start">83 % Anteil</text>
+<rect x="410" y="150" width="160" height="88" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="424" y="170" font-size="8" font-weight="bold" fill="#64748b" text-anchor="start" letter-spacing="0.8">HAUSVERBRAUCH</text>
+<text x="424" y="199" font-size="21" font-weight="bold" fill="#0f172a" text-anchor="start">312 kWh</text>
+<text x="424" y="216" font-size="8.5" font-weight="normal" fill="#16a34a" text-anchor="start">41 % Solar</text>
+<rect x="585" y="150" width="160" height="88" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="599" y="170" font-size="8" font-weight="bold" fill="#64748b" text-anchor="start" letter-spacing="0.8">ERSPARNIS</text>
+<text x="599" y="199" font-size="21" font-weight="bold" fill="#16a34a" text-anchor="start">28,60 €</text>
+<text x="599" y="216" font-size="8.5" font-weight="normal" fill="#16a34a" text-anchor="start">+ 4,20 € vs. Sep.</text>
+<rect x="760" y="150" width="160" height="88" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="774" y="170" font-size="8" font-weight="bold" fill="#64748b" text-anchor="start" letter-spacing="0.8">LADEVORGÄNGE</text>
+<text x="774" y="199" font-size="21" font-weight="bold" fill="#0f172a" text-anchor="start">41</text>
+<text x="774" y="216" font-size="8.5" font-weight="normal" fill="#64748b" text-anchor="start">Ø 3,5 kWh</text>
+<rect x="60" y="262" width="880" height="300" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="78" y="288" font-size="11.5" font-weight="bold" fill="#0f172a" text-anchor="start">Auto-Energie pro Tag</text>
+<text x="78" y="303" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="start">Oktober 2026 · kWh</text>
+<circle cx="790" cy="285" r="3.2" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<text x="798" y="289" font-size="8" font-weight="normal" fill="#475569" text-anchor="start">Solar</text>
+<circle cx="850" cy="285" r="3.2" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<text x="858" y="289" font-size="8" font-weight="normal" fill="#475569" text-anchor="start">Netz</text>
+<line x1="90" y1="540.0" x2="930" y2="540.0" stroke="#eef2f7" stroke-width="1"/>
+<text x="83" y="543.0" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="end">0</text>
+<line x1="90" y1="455.0" x2="930" y2="455.0" stroke="#eef2f7" stroke-width="1"/>
+<text x="83" y="458.0" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="end">5</text>
+<line x1="90" y1="370.0" x2="930" y2="370.0" stroke="#eef2f7" stroke-width="1"/>
+<text x="83" y="373.0" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="end">10</text>
+<rect x="94.0" y="485.6" width="18" height="54.4" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="94.0" y="465.20000000000005" width="18" height="20.4" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="122.9655172413793" y="470.3" width="18" height="69.7" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="122.9655172413793" y="460.1" width="18" height="10.2" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="151.9310344827586" y="499.2" width="18" height="40.8" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="151.9310344827586" y="483.9" width="18" height="15.299999999999999" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="180.89655172413794" y="540.0" width="18" height="0.0" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="180.89655172413794" y="540.0" width="18" height="0.0" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="209.86206896551724" y="509.4" width="18" height="30.599999999999998" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="209.86206896551724" y="490.7" width="18" height="18.700000000000003" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="238.82758620689654" y="473.7" width="18" height="66.3" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="238.82758620689654" y="466.9" width="18" height="6.8" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="267.7931034482759" y="451.6" width="18" height="88.4" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="267.7931034482759" y="448.20000000000005" width="18" height="3.4" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="296.7586206896552" y="458.4" width="18" height="81.6" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="296.7586206896552" y="444.79999999999995" width="18" height="13.6" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="325.7241379310345" y="490.7" width="18" height="49.3" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="325.7241379310345" y="466.9" width="18" height="23.799999999999997" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="354.6896551724138" y="482.2" width="18" height="57.8" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="354.6896551724138" y="466.9" width="18" height="15.299999999999999" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="383.6551724137931" y="441.4" width="18" height="98.6" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="383.6551724137931" y="438.0" width="18" height="3.4" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="412.6206896551724" y="434.6" width="18" height="105.4" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="412.6206896551724" y="434.6" width="18" height="0.0" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="441.58620689655174" y="465.2" width="18" height="74.80000000000001" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="441.58620689655174" y="453.3" width="18" height="11.899999999999999" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="470.55172413793105" y="487.3" width="18" height="52.7" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="470.55172413793105" y="466.90000000000003" width="18" height="20.4" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="499.51724137931035" y="507.7" width="18" height="32.3" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="499.51724137931035" y="477.09999999999997" width="18" height="30.599999999999998" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="528.4827586206897" y="460.1" width="18" height="79.9" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="528.4827586206897" y="451.6" width="18" height="8.5" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="557.448275862069" y="439.7" width="18" height="100.30000000000001" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="557.448275862069" y="438.0" width="18" height="1.7" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="586.4137931034483" y="436.3" width="18" height="103.7" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="586.4137931034483" y="436.3" width="18" height="0.0" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="615.3793103448276" y="468.6" width="18" height="71.4" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="615.3793103448276" y="458.40000000000003" width="18" height="10.2" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="644.3448275862069" y="492.4" width="18" height="47.599999999999994" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="644.3448275862069" y="473.7" width="18" height="18.700000000000003" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="673.3103448275862" y="478.8" width="18" height="61.199999999999996" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="673.3103448275862" y="465.2" width="18" height="13.6" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="702.2758620689655" y="456.7" width="18" height="83.30000000000001" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="702.2758620689655" y="451.59999999999997" width="18" height="5.1" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="731.2413793103448" y="448.2" width="18" height="91.80000000000001" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="731.2413793103448" y="446.5" width="18" height="1.7" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="760.2068965517241" y="473.7" width="18" height="66.3" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="760.2068965517241" y="458.4" width="18" height="15.299999999999999" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="789.1724137931035" y="502.6" width="18" height="37.400000000000006" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="789.1724137931035" y="478.8" width="18" height="23.799999999999997" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="818.1379310344828" y="516.2" width="18" height="23.799999999999997" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="818.1379310344828" y="487.30000000000007" width="18" height="28.9" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="847.1034482758621" y="487.3" width="18" height="52.7" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="847.1034482758621" y="473.7" width="18" height="13.6" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="876.0689655172414" y="465.2" width="18" height="74.80000000000001" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="876.0689655172414" y="458.4" width="18" height="6.8" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<rect x="905.0344827586207" y="495.8" width="18" height="44.2" rx="1" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<rect x="905.0344827586207" y="475.40000000000003" width="18" height="20.4" rx="1" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<text x="104.48275862068965" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">1</text>
+<text x="220.3448275862069" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">5</text>
+<text x="365.17241379310343" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">10</text>
+<text x="510.0" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">15</text>
+<text x="654.8275862068965" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">20</text>
+<text x="799.6551724137931" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">25</text>
+<text x="915.5172413793103" y="558" font-size="8" font-weight="normal" fill="#94a3b8" text-anchor="middle">29</text>
+<rect x="60" y="582" width="430" height="200" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="76" y="608" font-size="11.5" font-weight="bold" fill="#0f172a" text-anchor="start">Nach Nutzer</text>
+<text x="76" y="636" font-size="9.5" font-weight="bold" fill="#0f172a" text-anchor="start">Anna M.</text>
+<text x="474" y="636" font-size="9.5" font-weight="normal" fill="#334155" text-anchor="end">62 kWh</text>
+<rect x="76" y="643" width="398" height="9" rx="4.5" fill="#eef2f7" stroke="none" stroke-width="1"/>
+<rect x="76" y="643" width="200" height="9" rx="4.5" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<text x="76" y="666" font-size="7.5" font-weight="normal" fill="#94a3b8" text-anchor="start">18 Ladevorgänge</text>
+<text x="76" y="682" font-size="9.5" font-weight="bold" fill="#0f172a" text-anchor="start">Ben K.</text>
+<text x="474" y="682" font-size="9.5" font-weight="normal" fill="#334155" text-anchor="end">48 kWh</text>
+<rect x="76" y="689" width="398" height="9" rx="4.5" fill="#eef2f7" stroke="none" stroke-width="1"/>
+<rect x="76" y="689" width="155" height="9" rx="4.5" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<text x="76" y="712" font-size="7.5" font-weight="normal" fill="#94a3b8" text-anchor="start">14 Ladevorgänge</text>
+<text x="76" y="728" font-size="9.5" font-weight="bold" fill="#0f172a" text-anchor="start">Gast</text>
+<text x="474" y="728" font-size="9.5" font-weight="normal" fill="#334155" text-anchor="end">32 kWh</text>
+<rect x="76" y="735" width="398" height="9" rx="4.5" fill="#eef2f7" stroke="none" stroke-width="1"/>
+<rect x="76" y="735" width="103" height="9" rx="4.5" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<text x="76" y="758" font-size="7.5" font-weight="normal" fill="#94a3b8" text-anchor="start">9 Ladevorgänge</text>
+<rect x="510" y="582" width="430" height="200" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="526" y="608" font-size="11.5" font-weight="bold" fill="#0f172a" text-anchor="start">Solaranteil (Auto)</text>
+<circle cx="590" cy="690" r="44" fill="none" stroke="#e2e8f0" stroke-width="14"/>
+<circle cx="590" cy="690" r="44" fill="none" stroke="#f59e0b" stroke-width="14" stroke-dasharray="229.5 47.0" transform="rotate(-90 590 690)"/>
+<text x="590" y="687" font-size="16" font-weight="bold" fill="#0f172a" text-anchor="middle">83 %</text>
+<text x="590" y="703" font-size="7.5" font-weight="normal" fill="#64748b" text-anchor="middle">Solar</text>
+<circle cx="668" cy="668" r="3.2" fill="#f59e0b" stroke="none" stroke-width="1"/>
+<text x="676" y="672" font-size="8.5" font-weight="normal" fill="#475569" text-anchor="start">118 kWh Solar</text>
+<circle cx="668" cy="688" r="3.2" fill="#94a3b8" stroke="none" stroke-width="1"/>
+<text x="676" y="692" font-size="8.5" font-weight="normal" fill="#475569" text-anchor="start">24 kWh Netz</text>
+<text x="668" y="716" font-size="8" font-weight="normal" fill="#64748b" text-anchor="start">Ø 4,9 kWh pro Tag</text>
+<text x="668" y="732" font-size="8" font-weight="normal" fill="#64748b" text-anchor="start">Ø 1,4 Vorgänge pro Tag</text>
+<text x="668" y="748" font-size="8" font-weight="normal" fill="#64748b" text-anchor="start">Höchster Tag: 8,3 kWh</text>
+<text x="668" y="764" font-size="8" font-weight="normal" fill="#64748b" text-anchor="start">(12.10.2026)</text>
+<text x="60" y="826" font-size="11.5" font-weight="bold" fill="#0f172a" text-anchor="start">Ladevorgänge</text>
+<text x="940" y="826" font-size="8.5" font-weight="normal" fill="#94a3b8" text-anchor="end">Auszug · 10 von 41</text>
+<text x="60" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Datum</text>
+<text x="140" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Nutzer</text>
+<text x="300" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Dauer</text>
+<text x="380" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Energie</text>
+<text x="470" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Solar</text>
+<text x="560" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Kosten</text>
+<text x="650" y="852" font-size="8" font-weight="bold" fill="#94a3b8" text-anchor="start" letter-spacing="0.5">Status</text>
+<line x1="60" y1="860" x2="940" y2="860" stroke="#e2e8f0" stroke-width="1"/>
+<text x="60" y="884" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">28.10.</text>
+<text x="140" y="884" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Anna M.</text>
+<text x="300" y="884" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">3:12</text>
+<text x="380" y="884" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">8,4 kWh</text>
+<text x="470" y="884" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">91 %</text>
+<text x="560" y="884" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1,12 €</text>
+<rect x="650" y="873" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="884" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="895" x2="940" y2="895" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="917" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">27.10.</text>
+<text x="140" y="917" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Ben K.</text>
+<text x="300" y="917" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">2:05</text>
+<text x="380" y="917" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">5,1 kWh</text>
+<text x="470" y="917" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">78 %</text>
+<text x="560" y="917" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">0,74 €</text>
+<rect x="650" y="906" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="917" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="928" x2="940" y2="928" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="950" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">25.10.</text>
+<text x="140" y="950" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Gast</text>
+<text x="300" y="950" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1:20</text>
+<text x="380" y="950" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">3,2 kWh</text>
+<text x="470" y="950" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">62 %</text>
+<text x="560" y="950" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">0,48 €</text>
+<rect x="650" y="939" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="950" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="961" x2="940" y2="961" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="983" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">24.10.</text>
+<text x="140" y="983" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Anna M.</text>
+<text x="300" y="983" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">4:02</text>
+<text x="380" y="983" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">10,2 kWh</text>
+<text x="470" y="983" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">88 %</text>
+<text x="560" y="983" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1,36 €</text>
+<rect x="650" y="972" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="983" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="994" x2="940" y2="994" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="1016" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">22.10.</text>
+<text x="140" y="1016" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Ben K.</text>
+<text x="300" y="1016" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">2:44</text>
+<text x="380" y="1016" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">6,8 kWh</text>
+<text x="470" y="1016" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">74 %</text>
+<text x="560" y="1016" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1,04 €</text>
+<rect x="650" y="1005" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="1016" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="1027" x2="940" y2="1027" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="1049" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">20.10.</text>
+<text x="140" y="1049" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Anna M.</text>
+<text x="300" y="1049" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1:55</text>
+<text x="380" y="1049" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">4,9 kWh</text>
+<text x="470" y="1049" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">69 %</text>
+<text x="560" y="1049" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">0,82 €</text>
+<rect x="650" y="1038" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="1049" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="1060" x2="940" y2="1060" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="1082" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">18.10.</text>
+<text x="140" y="1082" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Ben K.</text>
+<text x="300" y="1082" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">3:20</text>
+<text x="380" y="1082" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">8,8 kWh</text>
+<text x="470" y="1082" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">82 %</text>
+<text x="560" y="1082" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1,20 €</text>
+<rect x="650" y="1071" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="1082" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="1093" x2="940" y2="1093" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="1115" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">15.10.</text>
+<text x="140" y="1115" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Gast</text>
+<text x="300" y="1115" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">0:55</text>
+<text x="380" y="1115" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">2,1 kWh</text>
+<text x="470" y="1115" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">55 %</text>
+<text x="560" y="1115" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">0,38 €</text>
+<rect x="650" y="1104" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="1115" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="1126" x2="940" y2="1126" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="1148" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">12.10.</text>
+<text x="140" y="1148" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Anna M.</text>
+<text x="300" y="1148" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">4:45</text>
+<text x="380" y="1148" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">11,3 kWh</text>
+<text x="470" y="1148" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">90 %</text>
+<text x="560" y="1148" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">1,48 €</text>
+<rect x="650" y="1137" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="1148" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<line x1="60" y1="1159" x2="940" y2="1159" stroke="#f1f5f9" stroke-width="1"/>
+<text x="60" y="1181" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">08.10.</text>
+<text x="140" y="1181" font-size="8.8" font-weight="normal" fill="#0f172a" text-anchor="start">Ben K.</text>
+<text x="300" y="1181" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">2:10</text>
+<text x="380" y="1181" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">5,6 kWh</text>
+<text x="470" y="1181" font-size="8.8" font-weight="normal" fill="#16a34a" text-anchor="start">71 %</text>
+<text x="560" y="1181" font-size="8.8" font-weight="normal" fill="#334155" text-anchor="start">0,86 €</text>
+<rect x="650" y="1170" width="52" height="16" rx="8" fill="#f1f5f9" stroke="none" stroke-width="1"/>
+<text x="676" y="1181" font-size="7.5" font-weight="normal" fill="#475569" text-anchor="middle">beendet</text>
+<text x="940" y="1238" font-size="8" font-weight="normal" fill="#2563eb" text-anchor="end">Alle 41 Ladevorgänge auf Seite 2</text>
+<line x1="60" y1="1300" x2="940" y2="1300" stroke="#e2e8f0" stroke-width="1"/>
+<text x="60" y="1322" font-size="7.5" font-weight="normal" fill="#94a3b8" text-anchor="start">Datenstand 31.10.2026, 23:59 · Tarif 0,32 €/kWh · Einspeisung 0,08 €/kWh</text>
+<text x="60" y="1338" font-size="7.5" font-weight="normal" fill="#94a3b8" text-anchor="start">Komfortauswertung nach § 2 MessEG – keine eichrechtliche Abrechnung.</text>
+<text x="940" y="1338" font-size="7.5" font-weight="normal" fill="#94a3b8" text-anchor="end">Seite 1 / 2</text>
+<text x="60" y="1364" font-size="7" font-weight="normal" fill="#cbd5e1" text-anchor="start">Thomis Supercharger v1.10 · erzeugt mit WeasyPrint · Bericht-ID 2026-10-01</text>
+</svg>
